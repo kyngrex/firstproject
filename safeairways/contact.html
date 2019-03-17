@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="refresh" content="500">
+    <title>SafeAirWays</title>
+     <!-- bootstrap css -->
+     <link rel="stylesheet" href="./css/bootstrap.min.css">
+     <!-- font-awesome automatic-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+     <!-- end of fotn awesome automatic -->
+     <!-- font-awesome -->
+     <script src="./js/all.js"></script>
+     <!--google fonts -->
+     <link href="https://fonts.googleapis.com/css?family=Cardo:700" rel="stylesheet"> 
+     <script defer src="/your-path-to-fontawesome/js/all.js"></script>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <style>  
+        body {
+                background:white;
+        }   
+    
+        #header {
+                position:fixed;
+                top:0;
+                z-index: 999;
+                width: 100%;
+
+                }           
+        .navbar-nav li {
+            padding-right:20px;
+                }
+        .nav-link {
+            font-size:14px;
+                }
+        .carousel-inner img {
+             width:100%;
+                }
+        .logohead {
+            text-shadow: 3px 3px 3px lightgrey;
+            font-size:26px;
+                    }
+        .carousel-caption {
+            position:absolute;
+            top:60px;
+                }
+        .title-underline1 {
+            width: 250px;
+            height:2px;
+            margin: 0px;
+            padding:0px;
+        }
+        .title-underline {
+            width: 335px;
+            height:2px;
+            margin: 0px;
+            padding:0px;
+        }
+        .height-80 {
+            min-height: 80vh;
+        }
+        .about-picture {
+            background:url(images/british.jpeg);
+            background-size:cover;
+            background-position:center;
+            background-repeat:no-repeat;
+            background-attachment:fixed; 
+}
+        .upload-button {
+            
+        }
+        @media (max-width:576px){
+            .jomo h1{
+                font-size: 20px;
+            }
+            .jomo p{
+                font-size:12px;
+            }
+            .labo {
+                font-size: 24px;
+                text-align:center;
+            }
+            .footer h1 {
+                font-size:20px;
+            }
+            .footer p{
+                font-size:13px;
+            }
+            .title-underline {
+            width: 160px;
+            height:2px;
+            margin: 0px;
+            padding:0px;
+            }
+            .jamb label {
+            font-size: 25px;
+    
+            }
+        }
+        @media (max-width:750px){
+            .jomo h1{
+                font-size: 25px;
+            }
+            .jomo p{
+                font-size:12px;
+            }
+            .labo {
+                font-size: 28px;
+                text-align:center;
+            }
+            .footer h1 {
+                font-size:25px;
+            }
+            .footer p{
+                font-size:14px;
+            }
+            .title-underline {
+            width: 200px;
+            height:2px;
+            margin: 0px;
+            padding:0px;
+            }
+        }
+        @media (max-width:970px){
+            .jomo h1{
+                font-size: 27px;
+            }
+            .jomo p{
+                font-size:12px;
+            }
+            .labo {
+                font-size: 35px;
+                text-align:center;
+            }
+            .footer h1 {
+                font-size:28px;
+            }
+            .footer p{
+                font-size:14px;
+            }
+            .title-underline {
+            width: 230px;
+            height:2px;
+            margin: 0px;
+            padding:0px;
+            }
+        }
+     </style>
+</head>
+<body onload="displayResult()">
+  <!-- this is the navigation section -->
+    <header id="header">
+        <nav class="navbar py-2 navbar-light navbar-expand-sm bg-info">
+            <!-- logo -->
+            <a href="#" class="text-uppercase navbar-brand text-dark"><span class="logohead">safeairways</span></a>
+            <!-- end of logo -->
+            <button type="button" class="navbar-toggler bg-light" data-toggle="collapse"
+            data-target="#navbarLinks">
+            <span class="navbar-toggler-icon"> </span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarLinks">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a href="index.html" class="text-white nav-link">HOME</a>
+                </li>
+                <li class="nav-item">
+                        <a href="about.html" class="text-white nav-link">ABOUT US</a>
+                </li>
+                <li class="nav-item">
+                        <a href="contact.html" class="text-white nav-link">CONTACT US</a>
+                </li>
+                <li class="nav-item">
+                        <a href="gift.html" class="text-white nav-link">SEND A GIFT</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+    </header>
+
+  <!-- this is the end navigation section -->
+        <!-- content section -->
+        <!-- xml file-->
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mt-5 pt-3 text-white bg-dark" >
+                            <!-- title -->
+                            <div id="example">
+                                <h1 class="text-capitalize display-6" >visit for customer services</h1>
+                            </div>
+                            <!-- end of title -->
+                            
+
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-16 col-xl-6 about-picture height-80">
+            
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- end of xml file -->
+        <!-- end of content section -->
+
+<!-- footer -->
+<section class="bg-info">
+    <div class="container footer">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-6 p-4">
+                <h1 class="text-uppercase text-dark">
+                    meet with us at
+                </h1>
+                <div class="title-underline bg-dark text-left"></div>
+                <p class="lead">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis recusandae sunt eum ad enim hic ut molestiae illo obcaecati deserunt, molestias amet similique voluptatum voluptates voluptatibus consectetur animi accusantium error!
+                </p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-6 text-dark p-4">
+                <p class="lead"> 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius officiis ab, minus error sapiente aliquid hic facere et? Facilis suscipit quos quas magni quidem autem perferendis similique in voluptatibus ipsam?
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!-- end of footer -->
+<!-- icons -->
+            <div class="container-fluid bg-dark p-5">
+                <div class="row text-center">
+                    <div class="col-12">
+            
+                        <a href="#">
+                                <i class="fab fa-facebook fa-2x text-primary m-2"></i>
+                        </a>
+                        <a href="#">
+                                <i class="fab fa-twitter fa-2x text-primary m-2"></i>
+                        </a>
+                        <a href="#">
+                                <i class="fab fa-google fa-2x text-primary m-2"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-pinterest fa-2x text-primary m-2"></i>
+                        </a>
+                    
+                    </div>
+                </div>
+            </div>
+<!-- end of icons -->
+
+
+
+ <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   <!-- jquery -->
+  
+   <script src="./js/jquery-3.3.1.min.js"></script>
+   <!-- bootstrap js -->
+   <script src="./js/bootstrap.bundle.min.js"></script>
+   <!-- this is a javascript tag to explain the calling of an xml file in this document -->
+    <script>
+        function loadXMLDoc(filename)
+           {
+           if (window.ActiveXObject)
+               {
+               xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+               }
+           else
+               {
+               xhttp = new XMLHttpRequest();
+               }
+           xhttp.open("GET", filename, false);
+           try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+           xhttp.send("");
+           return xhttp.responseXML;
+           }
+           
+           function displayResult()
+           {
+           xml = loadXMLDoc("contact.xml");
+           xsl = loadXMLDoc("contact.xsl");
+           // code for IE
+           if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+               {
+               ex = xml.transformNode(xsl);
+               document.getElementById("example").innerHTML = ex;
+               }
+           // code for Chrome, Firefox, Opera, etc.
+           else if (document.implementation && document.implementation.createDocument)
+               {
+               xsltProcessor = new XSLTProcessor();
+               xsltProcessor.importStylesheet(xsl);
+               resultDocument = xsltProcessor.transformToFragment(xml, document);
+               document.getElementById("example").appendChild(resultDocument);
+               }
+           }
+   </script>
+</body>
+</html>
